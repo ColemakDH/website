@@ -1,0 +1,80 @@
+h1, footer {
+    text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+    z-index: -1;
+    filter: brightness(50%);
+}
+
+/*Style the header*/
+h1{
+  margin-left: auto;
+  text-align: center;
+  margin-top: 5%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1in;
+  color: #ffffff;
+}
+/* Fix footer to the bottom of page*/
+footer{
+  margin-top: 100%;
+  color: #ffffff;
+}
+
+/*Set background color for nav bar*/
+.topnav {
+  background-color: #d28d27d2;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgba(241, 152, 34, 0.781);
+  color: rgb(95, 122, 182);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #de6305;
+  color: white;
+}
+
+h2{
+  color: #ffffff;
+  text-align: center;
+}
+
+ul{
+  color: #ffffff;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 55%;
+  }
+
