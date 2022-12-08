@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Phrase-o-Matic</title>
+<style>
+body{
+  background-color: beige;
+}
+h1 {
+  font-size: 3vw;
+  color: slategray;
+}
+main {
+  text-align: center;
+  font-size: 2.5vw;
+}
+p {
+  color: salmon;
+  font-family: sans-serif;
+}
+</style>
+<script>
+function randomChoice(list) {
+  let len = list.length;
+  return list[Math.floor(len * Math.random())];
+}
+function makePhrase() {
+  let words1 = [
+    "Epic", "Grindset", "Sus", "Breathing", "Drinking", "Programming",
+  ];
+  let words2 = [
+    "Julian Molina", "Lucas Reynolds Living at 2601 N Stuart St, Arlington, VA 22207", "Josephine Sparks", "Ana Cisneros", "Jacob Elligoat", "Skylar White Yo",
+  ];
+  let words3 = [
+    "Show", "Band", "Car", "Lawyer", "Doctor", "Shoe",
+  ];
+  document.getElementById("word1").innerHTML = randomChoice(words1);
+  document.getElementById("word2").innerHTML = randomChoice(words2);
+  document.getElementById("word3").innerHTML = randomChoice(words3);
+}
+function init() {
+  makePhrase();
+}
+window.onload = init;
+</script>
+</head>
+<body>
+<header>
+<center><h1>Phrase-o-Matic</h1></center>
+</header>
+<main>
+<p>
+What we need is a <span id="word1"></span> <span id="word2"></span> 
+<span id="word3"></span>!
+</p>
+</main>
+</body>
+</html>
