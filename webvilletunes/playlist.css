@@ -15,11 +15,11 @@ Spootify.center {
   }
 ul {
     text-align: center;
-    color: greenyellow;
+    color: rgb(241, 23, 15);
     background-color: grey;
 }
 
 footer {
  text-align: center;
- color: greenyellow;
+ color: rgb(245, 23, 16);
 }
