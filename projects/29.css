@@ -1,0 +1,13 @@
+h1, footer {
+    text-align: center;
+}
+footer>a, footer>a:visited {
+    text-decoration: none;
+    color: #3a9ff1;
+}
+/* Fix footer to the bottom of page*/
+footer{
+  margin-top: 34%;
+  color: #dd1fe4;
+}
+
