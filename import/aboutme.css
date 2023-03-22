@@ -34,8 +34,9 @@ footer{
 
 /*Set background color for nav bar*/
 .topnav {
-  background-color: #d28d27d2;
+  background-color: #ce8a7a;
   overflow: hidden;
+  opacity: 80%;
 }
 
 /* Style the links inside the navigation bar */
@@ -50,14 +51,15 @@ footer{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: rgba(241, 152, 34, 0.781);
-  color: rgb(95, 122, 182);
+  background-color: #ddd;
+  color: #ce8a7a;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #de6305;
+  background-color: #9e6b60;
   color: white;
+  opacity: 80%;
 }
 
 h2{
